@@ -10,21 +10,20 @@ const LandingPage = () => {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
                 <div className="flex items-center space-x-2">
-                {/* <img src="/assets/logo.png" className="h-8 w-8" /> */}
+                <img src="/assets/logo.png" className="h-8 w-8" />
                 <span className="text-2xl font-bold text-blue-600">CGC Ke Sitare</span>
               </div>
             </div>
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-4">
                 <a href="#" className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">Home</a>
-                <a href="#" className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">About</a>
-                <a href="#" className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">Features</a>
-                <a href="#" className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">Contact</a>
+                <a href="#" className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">See all Sitare</a>
+              
               </div>
             </div>
             <div className="flex items-center space-x-4">
               <button className="bg-blue-600 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-blue-700 transition-colors">
-                Get Started
+                SignIn/SignUp 
               </button>
             </div>
           </div>
@@ -42,13 +41,9 @@ const LandingPage = () => {
             Join CGC's premier platform where students unite to showcase talents, 
             collaborate on projects, and build lasting connections.
           </p>
+
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-blue-600 text-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors">
-              Join the Community
-            </button>
-            <button className="bg-white text-blue-600 border-2 border-blue-600 px-8 py-3 rounded-lg text-lg font-semibold hover:bg-blue-50 transition-colors">
-              Learn More
-            </button>
+            <h1 className='text-6xl font-bold text-blue-600 mt-2'>CGC Ke Sitare</h1>
           </div>
         </div>
       </section>
@@ -108,7 +103,7 @@ const LandingPage = () => {
             Join thousands of students already making their mark
           </p>
           <button className="bg-white text-blue-600 px-8 py-3 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors">
-            Get Started Now
+            SignUp Now
           </button>
         </div>
       </section>
