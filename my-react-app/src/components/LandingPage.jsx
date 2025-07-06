@@ -3,7 +3,7 @@ import ProblemCards from './Problem-Cards'
 
 const LandingPage = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 ">
       {/* Navigation */}
       <nav className="bg-white shadow-lg fixed top-0 left-0 w-full z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -31,7 +31,7 @@ const LandingPage = () => {
       </nav>
 
       {/* Hero Section */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-30 ">
         <div className="text-center">
           <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
             Connect, Collaborate, and
@@ -49,8 +49,9 @@ const LandingPage = () => {
       </section>
 
       {/* Problems Section */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="text-center mb-12">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-10 ">
+        <div className='border-b-2 border-b-gray-400'></div>
+        <div className="text-center mb-12 pt-10">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
             Problems We Solve
           </h2>
@@ -58,11 +59,11 @@ const LandingPage = () => {
             Addressing the key challenges students face in today's academic environment
           </p>
         </div>
-        <ProblemCards />
+        <ProblemCards/>
       </section>
 
       {/* Features Section */}
-      <section className="bg-white py-16">
+      <section className="bg-white py-10 mt-5">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
